@@ -278,7 +278,7 @@ height: 20rem;
   color:black;
 }
 
-.pd .row .post {
+.dp .row .post {
   font-size: 2rem;
   color: Black;
 }
@@ -294,50 +294,6 @@ height: 20rem;
   flex-flow: c
 }
 .dp .row .info h3 {
-  font-size: 2rem;
-  color: black;
-  padding: 1rem 0;
-  font-weight: normal;
-align-items: center;
-  justify-content: center;
-}
-
-.dp .row .info h3 i{
-   
-  top: -1.5rem; left: -1.5;
-  height: 5rem;
-  width: 5rem;
-  border-radius: 50%;
-  line-height: 5rem;
-  text-align: center;
-  font-size: 2rem;
-  color: #fff;
-  background: var(--yellow);
-  margin-left: -60px;
-  
-}
-
-.dp .wor  .name {
-  font-size: 3.5rem;
-  color:black;
-}
-
-.dp .wor .post {
-  font-size: 2rem;
-  color: Black;
-}
-
-.dp .wor {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 1rem 0;
-}
-.dp .row .info {
-  flex-flow: c
-}
-.fa .row .info h3 {
   font-size: 2rem;
   color: black;
   padding: 1rem 0;
@@ -382,7 +338,6 @@ height: 20rem;
   flex-wrap: wrap;
 
 }
-
 
 
 .fa .wor  .name {
