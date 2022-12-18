@@ -1,1 +1,80 @@
+*{font-family: Sans-serif;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline:none;
+  border:none;
+  transition: all .2s linear;
+}
+  :root {
+    --yellow: #F9ca24
+}
 
+*::selection {
+
+background: #b57c04;
+color: #333;
+}
+
+html{
+  font-size:62.5%;
+overflow-x: hidden;
+scroll-behavior: smooth;
+}
+
+html::-webkit-scollbar{
+  width:1.4rem;
+}
+html::-webkit-scollbar-track {
+background-color: #222;
+}
+html::-webkit-scollbar-thumb {
+background:#b57c04;
+}
+
+
+
+
+
+body {
+  min-height :100vh;
+  padding: 1rem;
+}
+
+header{
+  position:fixed;
+  top:0; left:0;
+  z-index:1000;
+  height: 100%;
+  width:35rem;
+  background: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+}
+
+header .user img {
+height:17rem;
+width:17rem;
+bordor-radius:50%;
+object-fit:cover;
+margin-bottom:1rem;
+borber: .7rem solid var(--yellow);
+}
+ header .user .name {
+   font-size: 3.5rem;
+   color:black;
+}
+header . user .post{
+   font-size: 2rem;
+   color:black;
+}
+
+
+
+
+
+    
+  
