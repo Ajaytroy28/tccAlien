@@ -61,6 +61,14 @@ background: rgba(100,100,100,0.2);
   font-size: 2rem;
 }
 
+.topnav a:hover{
+  background-color: var(--yellow);
+}
+
+.topnav .active {
+  background-color: var(--yellow);
+}
+
 body {
 background-color: gray;
 overflow-x: hidden;
