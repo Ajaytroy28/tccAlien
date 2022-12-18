@@ -67,6 +67,29 @@ body {
   padding-left: 35rem;
 }
 
+section {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.btn {
+  padding: .7rem 3rem;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1 rem;
+  font-size: 2rem;
+  border-radius: 5rem;
+}
+.btn i {
+  padding: 0 .5re,;
+  font-size: 1.8rem;
+  color: white;
+}
+.btn:hover {
+  background: ver(--yellow);
+}
+
 
 header{
   position:fixed;
@@ -96,5 +119,42 @@ borber: .7rem solid var(--yellow);
 header . user .post{
    font-size: 2rem;
    color:black;
+}
+header .navbar ul {
+  list-style: none;
+  padding: 1rem 3rem;
+}
+header .navbar ul li a {
+  display: block;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background: rgba(100,100,100,0.2);
+  back-drop filter: blur(10px);
+  box-shadow:inset 10px 10px 10px gray;
+  color: black;
+  font-size: 2rem;
+  border-radius: 5rem;
+}
+header .navbar ul li a:hover {
+  background: var(--yellow);
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-flow: column:
+    padding:0 15rem;
+}
+.home h3 {
+  font-size: 2.5rem;
+  color: white;
+}
+.home h1 span {
+  color: var(--yellow);
+}
+.home p {
+  font-size: 2rem;
+  color: #eee;
+  paddingL 1rem 0;
 }
 
