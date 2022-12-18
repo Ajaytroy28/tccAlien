@@ -5,6 +5,7 @@
   text-decoration: none;
   outline:none;
   border:none;
+  text-transform: capitalize;
   transition: all .2s linear;
 }
   :root {
@@ -39,7 +40,7 @@ background:#b57c04;
   height: 25px
     background: rgba(100, 100, 100, 0.2);
   backdrop-filter: blur(10px);
-  box-shadow:insert 10px 10px 10px black;
+  box-shadow:inset 10px 10px 10px black;
   top: 0;
   right: 0;
   border: .3rem solid var(--yellow);
@@ -51,7 +52,7 @@ background:#b57c04;
   color: black;
   background: rgba(100, 100, 100, 0.2);
   backdrop-filter: blur(10px);
-  box-shadow:insert 10px 10px 10px white;
+  box-shadow:inset 10px 10px 10px white;
   border-radius: 5rem;
   float: right;
   top:.1rem; left:2rem;
@@ -157,4 +158,60 @@ header .navbar ul li a:hover {
   color: #eee;
   paddingL 1rem 0;
 }
+.pd .row. name {
+  font-size: 3.5rem;
+  color: black;
+}
+.pd .row .post {
+  font-size: 2rem;
+  color: black;
+}
+.pd .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+.pd .row .info {
+  flex-flow:c
+}
+.pd .row .info h3 {
+  font-size: 2rem;
+  color; black;
+  padding: 1rem 0;
+  font-weight: normal;
+  align-items: center;
+  justify-content: center;
+}
+.pd .row .info h3 i {
+  top: -1.5rem; left: -1.5;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  text-align: center;
+  font=size: 2rem;
+  color: #fff;
+  background: var(--yellow);
+  margin-left: -60px;
+  
+}
+.pd .row .info h3 span {
+  color: #eee;
+  padding: 0 .5rem;
+}
+.pd .row .info img {
+  height: 20rem;
+  width: 20rem:
+    border-radius: 50%
+    object-fit: cover;
+  margin-bottom: 1rem;
+  border: .7rem solid var(--yellow);
+}
 
+.pd .row .counter {
+  flex: 1 1 48rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
