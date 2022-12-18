@@ -3,17 +3,16 @@
   padding:0;
   box-sizing: border-box;
   text-decoration: none;
-  outline:none;
-  border:none;
+  outline: none;
+  border: none;
   text-transform: capitalize;
   transition: all .2s linear;
 }
   :root {
-    --yellow: #F9ca24
+    --yellow: #F9ca24;
 }
 
 *::selection {
-
 background: #b57c04;
 color: #333;
 }
@@ -38,7 +37,7 @@ background:#b57c04;
   padding:30px 0px;
   width: 100%;
   height: 25px
-    background: rgba(100, 100, 100, 0.2);
+    background: rgba(100,100,100,0.2);
   backdrop-filter: blur(10px);
   box-shadow:inset 10px 10px 10px black;
   top: 0;
@@ -50,7 +49,7 @@ background:#b57c04;
   padding: 1rem;
   margin: 1rem 2rem;
   color: black;
-  background: rgba(100, 100, 100, 0.2);
+  background: rgba(100,100,100,0.2);
   backdrop-filter: blur(10px);
   box-shadow:inset 10px 10px 10px white;
   border-radius: 5rem;
@@ -83,12 +82,12 @@ section {
   border-radius: 5rem;
 }
 .btn i {
-  padding: 0 .5re,;
+  padding: 0 .5rem;
   font-size: 1.8rem;
   color: white;
 }
 .btn:hover {
-  background: ver(--yellow);
+  background: var(--yellow);
 }
 
 
@@ -102,6 +101,7 @@ header{
   display:flex;
   align-items: center;
   justify-content: center;
+  flex-flow: column;
   text-align:center;
 }
 
@@ -109,8 +109,8 @@ header .user img {
 height:17rem;
 width:17rem;
 bordor-radius:50%;
-object-fit:cover;
-margin-bottom:1rem;
+object-fit: cover;
+margin-bottom: 1rem;
 borber: .7rem solid var(--yellow);
 }
  header .user .name {
@@ -120,6 +120,9 @@ borber: .7rem solid var(--yellow);
 header . user .post{
    font-size: 2rem;
    color:black;
+}
+header .navbar {
+  width: 100%;
 }
 header .navbar ul {
   list-style: none;
